@@ -1,0 +1,263 @@
+{
+  "topic": "Science",
+  "title": "States of Matter and Phase Changes",
+  "isConceptIntroductionEnabled": true,
+  "introData": {
+    "TopicExplanation": "Think about your favorite ice cream on a hot day. It starts solid, becomes liquid as it melts, and the puddle slowly disappears as it evaporates. You're watching matter transform before your eyes! But what's really happening to those tiny particles?",
+    "Visual": {
+      "Content": "🧊 → 💧 → ☁️ | Particles: Locked → Sliding → Flying",
+      "Label": "Ice cube melting into water and evaporating, showing particle movement",
+      "Type": "text"
+    },
+    "Voice": "Get ready to explore the invisible world of particles! We'll discover why ice floats, why puddles disappear, and what really happens when matter changes form."
+  },
+  "questionData": {
+    "QuestionText": "You put an ice cube in a sealed jar and heat it until all the ice becomes steam. The jar stays sealed the whole time. What happens to the total mass?",
+    "Type": "Multiple Choice",
+    "QuestionImageURL": "",
+    "Options": [
+      {
+        "Option": "The mass stays exactly the same",
+        "IsCorrect": true
+      },
+      {
+        "Option": "The mass decreases as water evaporates",
+        "IsCorrect": false
+      },
+      {
+        "Option": "The mass increases as particles expand",
+        "IsCorrect": false
+      },
+      {
+        "Option": "The mass decreases because steam is lighter",
+        "IsCorrect": false
+      }
+    ]
+  },
+  "steps": [
+    {
+      "Topic": "Exploring Our Instincts About Matter",
+      "Description": "Let's start by exploring what we think we know about ice, water, and steam.",
+      "ConceptualQuestions": [
+        {
+          "Goal": "Uncover preconceptions about states of matter",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "🤔 Ice feels heavy, steam feels light... what's your gut telling you?",
+              "Label": "Encouraging initial thoughts about mass and states",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "It's okay if your instinct seems wrong - that's how we learn!",
+                "Label": "Validating misconceptions as learning opportunities",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Great observation! Let's dig deeper into why things seem that way.",
+                "Label": "Building on student observations",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "What do you think happens to the 'stuff' when ice turns to steam?"
+        },
+        {
+          "Goal": "Connect to everyday experiences",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "☕ Think about steam from hot cocoa vs ice in your drink",
+              "Label": "Relating to familiar experiences",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "Does steam from your cocoa disappear forever, or...?",
+                "Label": "Prompting deeper thinking about steam",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Exactly! You're noticing that matter might be hiding, not disappearing!",
+                "Label": "Celebrating conservation insight",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "When you see steam rise and disappear, where do you think it goes?"
+        }
+      ],
+      "Notes": {
+        "Description": "Explored initial ideas about matter in different states",
+        "UpdatedExpression": "Question: Does matter disappear or just change form?"
+      }
+    },
+    {
+      "Topic": "The Particle Model Debate",
+      "Description": "Let's explore different ways to think about what's happening to the particles in ice, water, and steam.",
+      "ConceptualQuestions": [
+        {
+          "Goal": "Introduce competing models of particle behavior",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "Model A: Particles change size | Model B: Particles change spacing | Model C: Particles change speed",
+              "Label": "Three ways to explain state changes",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "What would happen to mass if particles actually got bigger or smaller?",
+                "Label": "Guiding toward particle spacing model",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Interesting choice! Let's test that model against what we observe.",
+                "Label": "Encouraging model testing",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "Which model do you think best explains why ice, water, and steam look so different?"
+        },
+        {
+          "Goal": "Test models against observations",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "🧊 Rigid structure | 💧 Flows and takes shape | ☁️ Expands to fill space",
+              "Label": "Observable properties of each state",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "If particles just got bigger, could water flow? Think about it!",
+                "Label": "Challenging the size-change model",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Yes! Spacing and movement explain all these behaviors!",
+                "Label": "Confirming the spacing/movement model",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "How does particle spacing and movement explain these different behaviors?"
+        }
+      ],
+      "Notes": {
+        "Description": "Compared models: Particles don't change, but their arrangement and energy do",
+        "UpdatedExpression": "Key insight: Same particles, different arrangements"
+      }
+    },
+    {
+      "Topic": "The Sealed Jar Revelation",
+      "Description": "Now let's think about what being in a sealed jar means for our ice-to-steam transformation.",
+      "ConceptualQuestions": [
+        {
+          "Goal": "Understand the importance of the sealed container",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "🏺 Sealed = Nothing gets in or out | What does this mean for our particles?",
+              "Label": "The sealed jar constraint",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "If no particles can escape, and no new ones can enter...",
+                "Label": "Leading to conservation reasoning",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Brilliant! You've discovered a fundamental law of nature!",
+                "Label": "Celebrating conservation of mass discovery",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "If the jar is sealed and no particles can escape, what must be true about the total number of particles?"
+        },
+        {
+          "Goal": "Connect particle count to mass",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "Same particles = Same 'stuff' = Same mass? 🤔",
+              "Label": "Making the mass connection",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "Each water particle has a certain mass. If we keep all of them...",
+                "Label": "Connecting particles to mass",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Exactly! Same particles means same total mass!",
+                "Label": "Confirming mass conservation",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "If we have the exact same particles, just rearranged, what happens to the total mass?"
+        }
+      ],
+      "Notes": {
+        "Description": "Discovered: In a sealed system, mass is conserved during phase changes",
+        "UpdatedExpression": "Conservation of Mass: Ice mass = Water mass = Steam mass"
+      }
+    },
+    {
+      "Topic": "Challenging Common Misconceptions",
+      "Description": "Let's address why our answer might feel counterintuitive and explore some 'But what about...?' questions.",
+      "ConceptualQuestions": [
+        {
+          "Goal": "Address the 'steam is lighter' misconception",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "🎈 Steam rises, so it must be lighter... right? Let's think deeper!",
+              "Label": "Challenging the weight misconception",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "Steam rises because it's less dense, not because particles lost mass!",
+                "Label": "Distinguishing density from mass",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "Perfect! You've separated the concepts of density and total mass!",
+                "Label": "Celebrating conceptual clarity",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "Why does steam rise if it has the same mass as the original ice?"
+        },
+        {
+          "Goal": "Solidify understanding with a thought experiment",
+          "Illustration": {
+            "BeforeQuestion": {
+              "Content": "⚖️ If we could weigh the sealed jar before and after...",
+              "Label": "The weighing thought experiment",
+              "Type": "text"
+            },
+            "Feedback": {
+              "Hint": {
+                "Content": "Remember: Every single particle is still in the jar!",
+                "Label": "Reinforcing the sealed system concept",
+                "Type": "text"
+              },
+              "Success": {
+                "Content": "You've mastered it! Mass is conserved in closed systems!",
+                "Label": "Celebrating complete understanding",
+                "Type": "text"
+              }
+            }
+          },
+          "Question": "What would a scale show if we weighed our sealed jar through the whole process?"
+        }
+      ],
+      "Notes": {
+        "Description": "Clarified: Less dense ≠ less mass. Conservation of mass is a fundamental law!",
+        "UpdatedExpression": "Final Answer: The mass stays exactly the same (Option A)"
+      }
+    }
+  ]
+}
